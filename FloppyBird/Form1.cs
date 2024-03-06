@@ -20,6 +20,7 @@ namespace FloppyBird
         private Point PictureBoxLocation;
         private int score = 0;
         private bool will = true;
+
         public Form1()
         {
             InitializeComponent();
@@ -29,6 +30,7 @@ namespace FloppyBird
             CurrentLocation = new Point(200, 0);
             OptWidth = (Width-200) / 12;
             timer = new Timer();
+            
             PictureBoxLocation = new Point(10, Height/2);
             DoubleBuffered = true;
             label1.Font = new Font("Arial",15);
@@ -89,9 +91,11 @@ namespace FloppyBird
                 if(GameOver(new Point(pictureBox1.Location.X-gap,pictureBox1.Location.Y-gap),ob.UpperRect)||GameOver(new Point(pictureBox1.Location.X+pictureBox1.Width-gap,pictureBox1.Location.Y-gap),ob.UpperRect)||GameOver(new Point(pictureBox1.Location.X,pictureBox1.Location.Y+pictureBox1.Height),ob.UpperRect)||GameOver(new Point(pictureBox1.Location.X + pictureBox1.Width, pictureBox1.Location.Y + pictureBox1.Height),ob.UpperRect)|| GameOver(pictureBox1.Location, ob.LowerRect) || GameOver(new Point(pictureBox1.Location.X + pictureBox1.Width, pictureBox1.Location.Y), ob.LowerRect) || GameOver(new Point(pictureBox1.Location.X, pictureBox1.Location.Y + pictureBox1.Height), ob.LowerRect) || GameOver(new Point(pictureBox1.Location.X + pictureBox1.Width, pictureBox1.Location.Y + pictureBox1.Height), ob.LowerRect))
                 {
                     timer.Stop();
-                    MessageBox.Show($"Game Over {score}");
-                    Invalidate();
-                    return;
+                    DialogResult dialog =  MessageBox.Show($"Game Over {score}");
+                    if (dialog == DialogResult.OK)
+                    {
+                        Close();
+                    }
                 }
                 if (pictureBox1.Location.X > ob.ObstLocation.X - (OptWidth / 30)+ob.ObstWidth && will)
                 {
