@@ -23,3 +23,26 @@ C:\Users\Lucid\source\repos\FloppyBird\FloppyBird\bin\Debug\System.Runtime.Compi
 C:\Users\Lucid\source\repos\FloppyBird\FloppyBird\obj\Debug\FloppyBird.csproj.CopyComplete
 C:\Users\Lucid\source\repos\FloppyBird\FloppyBird\obj\Debug\FloppyBird.Clock.resources
 C:\Users\Lucid\source\repos\FloppyBird\FloppyBird\obj\Debug\FloppyBird.csprojAssemblyReference.cache
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\FloppyBird.exe.config
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\FloppyBird.exe
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\FloppyBird.pdb
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\ExCSS.dll
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\Svg.dll
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\System.Buffers.dll
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\System.Drawing.Common.dll
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\System.Memory.dll
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\System.Numerics.Vectors.dll
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\Svg.xml
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\System.Buffers.xml
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\System.Memory.xml
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\System.Numerics.Vectors.xml
+D:\Sivasurya 23\Floppy_bird\FloppyBird\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Sivasurya 23\Floppy_bird\FloppyBird\obj\Debug\FloppyBird.csprojAssemblyReference.cache
+D:\Sivasurya 23\Floppy_bird\FloppyBird\obj\Debug\FloppyBird.Form1.resources
+D:\Sivasurya 23\Floppy_bird\FloppyBird\obj\Debug\FloppyBird.Properties.Resources.resources
+D:\Sivasurya 23\Floppy_bird\FloppyBird\obj\Debug\FloppyBird.csproj.GenerateResource.cache
+D:\Sivasurya 23\Floppy_bird\FloppyBird\obj\Debug\FloppyBird.csproj.CoreCompileInputs.cache
+D:\Sivasurya 23\Floppy_bird\FloppyBird\obj\Debug\FloppyBird.csproj.CopyComplete
+D:\Sivasurya 23\Floppy_bird\FloppyBird\obj\Debug\FloppyBird.exe
+D:\Sivasurya 23\Floppy_bird\FloppyBird\obj\Debug\FloppyBird.pdb
