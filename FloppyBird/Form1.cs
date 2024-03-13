@@ -20,7 +20,7 @@ namespace FloppyBird
         private Point PictureBoxLocation;
         private int score = 0;
         private bool will = true;
-
+ 
         public Form1()
         {
             InitializeComponent();
@@ -134,13 +134,4 @@ namespace FloppyBird
         }
     }
 
-    class Obstacle
-    {
-        public int TotalHeight { get; set; }
-        public int ObstHeight { get; set; }
-        public int ObstWidth { get; set; }
-        public Point ObstLocation { get; set; }
-        public Rectangle UpperRect { get { return new Rectangle(ObstLocation, new Size(ObstWidth, ObstHeight)); } }
-        public Rectangle LowerRect { get { return new Rectangle(ObstLocation.X, ObstLocation.Y + ObstHeight + 80, ObstWidth, TotalHeight - ObstHeight - 80); } }
-    }
 }
